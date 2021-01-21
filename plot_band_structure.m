@@ -36,7 +36,7 @@ valence_top = max(valence);
 bandgap = conduction_bottom - valence_top;
 xlabel('K-PATH');
 ylabel('Energy(eV)');
-text(3,0.2,['禁带宽度：',num2str(bandgap)]);
+text(3,0.2,['陆没麓酶驴铆露脠拢潞',num2str(bandgap)]);
 title('Band Structure');
 axis([0,5,-6,4]);
-%plot([0,5],[0,0],'r','linewidth',1)   %绘制费米能
+%plot([0,5],[0,0],'r','linewidth',1);
