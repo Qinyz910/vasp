@@ -15,5 +15,5 @@ rm -f WAVECAR CHGCAR
 echo "ENCUT = $i eV was performed above"
 E= `grep "TOTEN" OUTCAR |awk '{print $5}'`
 cputime= `grep "CPU" OUTCAR |awk '{print $6}'`
-echo $i $E $cputime >> compare
+echo $i $E $cputime >> compare.dat
 done
